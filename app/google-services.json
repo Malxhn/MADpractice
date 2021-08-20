@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159393345486",
+    "firebase_url": "https://sliitquizapp.firebaseio.com",
+    "project_id": "sliitquizapp",
+    "storage_bucket": "sliitquizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159393345486:android:2f65177ccf9d6de3dd859f",
+        "android_client_info": {
+          "package_name": "com.aim.sliitquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159393345486-fsva1bnes65sjhpi83v2l4eg5423b2pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aim.sliitquizapp",
+            "certificate_hash": "dbed92ce7675adf9dc82f9f507d629f8c60d8aad"
+          }
+        },
+        {
+          "client_id": "159393345486-2h3h5uui5690dh5b8huicno6m7m585l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn-qn7BH2uLjwioEVMD_Liio-uNGgsdgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159393345486-2h3h5uui5690dh5b8huicno6m7m585l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

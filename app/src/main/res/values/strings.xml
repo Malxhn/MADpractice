@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sliit Quiz App</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_about">About</string>
+    <string name="btn_start">START</string>
+    <string name="btn_select">SELECT QUIZ</string>
+    <string name="btn_stat">STATISTICS</string>
+    <string name="btn_feed">FEEDBACK</string>
+    <string name="btn_ins">LESSONS</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_answer">VIEW ANSWERS</string>
+    <string name="btn_retake">RETAKE</string>
+    <string name="tv_skip">SKIPPED</string>
+    <string name="tv_correct">CORRECT</string>
+    <string name="tv_wrong">WRONG</string>
+    <string name="tx_bad">Oops!! Your score is not very good! You need to study more.</string>
+    <string name="tx_best">Wow!! You are brilliant</string>
+    <string name="tx_good">Good! Study more to gain higher mark</string>
+    <string name="tv_qus">QUESTION</string>
+    <string name="tv_youAns"> Your Answer</string>
+    <string name="tv_corrAns">Correct Answer:</string>
+    <string name="action_clear">Clear Records</string>
+    <string name="btn_createQuiz">Add Question</string>
+    <string name="btn_less">Add Lessons</string>
+
+</resources>

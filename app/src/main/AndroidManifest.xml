@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aim.sliitquizapp">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".FeedbackActivity" android:label="Add FeedBack"/>
+        <activity android:name=".FeedbackDetailsActivity" android:label="Manage FeedBack"/>
+        <activity android:name=".FeedbackListActivity" android:label="FeedBacks"/>
+        <activity android:name=".QuizDetails" android:label="Manage Questions"/>
+        <activity android:name=".QuizView" android:label="Questions"/>
+        <activity android:name=".exp"/>
+        <activity android:name=".LessonDetailsActivity"/>
+        <activity android:name=".LessonListActivity"/>
+        <activity
+            android:name=".LecHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Sliit Quiz App"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppWelcome"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SelectquizActivity"
+            android:parentActivityName=".HomeActivity"
+            android:label="Select Quiz"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="Statistics"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuizActivity"
+            android:label="Create Quiz"
+            android:parentActivityName=".LecHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AnswerActivity"
+            android:label="Result Analysis"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ResultActivity"
+            android:label="Quiz Result"
+            android:parentActivityName=".SelectquizActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuestionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppWelcome"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
